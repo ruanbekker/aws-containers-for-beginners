@@ -40,7 +40,7 @@ variable "alb_name" {
 
 variable "github_username" {
   type    = "string"
-  default = "cobusbernard"
+  default = "ruanbekker"
 }
 
 variable "github_repo_name" {
