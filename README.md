@@ -22,7 +22,10 @@ aws_secret_access_key = your_api_key_secret
 locals {
   webhook_secret  = "web-hook-secret-shared-string"
   github_token    = "github-token-with-permission-to-create-webhooks"
-  github_username = "cobusbernard"
+  github_username = "ruanbekker"
 }
 ~~~
 
+6. `export GITHUB_TOKEN=x`
+
+7. `terraform apply`
